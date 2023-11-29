@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy World</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <<div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+
+                    <div class="content-customer-support">
+
+                        <div class="content-customer-support">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="container-logo">
+                    <i class="fa-solid fa-plane-departure"></i>
+                    <h1 class="logo"><a href="/">Happy World</a></h1>
+                </div>
+                <!-- En esta parte esta la funcion del carrito de compras es despues del logo y el a href del happy world-->
+                <div class="container-user">
+                   
+                    <i class="fas fa-shopping-cart">
+                    </i>
+                    <div class="content-shopping-car">
+                        <span class="text">Carrito de compras</span>
+                        <span class="welcome-message">Bienvenid@ Usuario</span>
+                    </div> 
+                        <div class ="count-products">
+                            <span id="contador-productos">
+                            </span>
+                        </div>
+
+                        <div class="container-cart-products hidden-cart">
+                            <div class="row-product">
+                                <div class="cart-product">
+                                    <div class="info-cart-product">
+                                        <div class="span cantidad-producto-carrito">
+                                            <p class="titulo-producto--carrito"></p>
+                                        <span class="precio-producto-carrito"></span>
+                                        
+                                    </div>
+                                    </div>
+                                    
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 24 24" 
+                                    stroke-width="1.5" 
+                                    stroke="currentColor" 
+                                    class="close">
+                                    <path 
+                                    stroke-linecap="round" 
+                                    stroke-linejoin="round" 
+                                    d="M6 18L18 6M6 6l12 12" 
+                                    />
+                                      </svg>
+                                      </div>
+                            </div>
+                                  <div class="cart-total">
+                                    <h3>Total:</h3>
+                                    <span class="total-pagar">$</span>
+                                  </div>
+                            </div>
+                        </div>       
+                        <!--Aqui acaba el codigo para el carrito acaba antes de llegar al carrito de compras -->  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>   
+                <ul class="menu">
+                    <li><a href="perf.html">Inicio</a></li>
+                    <li><a href="./perf/no.html">Nosotros</a></li>
+                    <li><a href="./perf/no.html">Ofertas</a></li>
+                    <li><a href="./perf/pro.html">Promociones</a></li>
+                    <li><a href="./perf/de.html">Destinos</a></li>
+                    <li><a href="#">Tipo de Cambio</a></li>
+                </ul>
+                <form class="search-form">
+                    <input type="search" name="buscar" placeholder="Buscar..." />
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+                <a href="index.html" class="logout-link">Cerrar sesión</a>
+            </nav>
+        </div>v
+    </header>
+    <section class="banner">
+        <div class="content-banner">
+            <p>Planifica tu viaje!</p>
+            <h2>Descubre el mundo, un viaje a la vez 
+                ¿Qué esperas?</h2>
+                <a href="./perf/de.html">Más información</a>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section class="container top-categories">
+            <h1 class="heading-1">Top destinos más buscados hoy en México</h1>
+            <div class="container-categories">
+                <div class="card-category category-mexico">
+                    <p>México</p>
+                    <a href="./perf/mex.html">Ver más </a>
+                </div>
+                <div class="card-category category-africa">
+                    <p>Africa</p>
+                    <a href="./perf/af.html">Ver más </a>
+                </div>
+                <div class="card-category category-europa">
+                    <p>Europa</p>
+                    <a href="./perf/eu.html">Ver más </a>
+                </div>
+                <div class="card-category category-america">
+                    <p>America</p>
+                    <a href="./perf/am.html">Ver más </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container top-products">
+            <h1 class="heading-1">Mejores Destinos</h1>
+
+            <div class="container-options">
+                <span class="active">Destacados</span>
+                <span>Más visitados</span>
+                <span>Mejores vendidos</span>
+            </div>
+            
+            <div class="container-products">
+                <!-- producto1 -->
+                <div class="card-product">
+                   <div class="container-img">
+                    <img src="img/puerto.png" alt="Puerto EScondido">
+                    <span class="discount">-20%</span>
+                    
+                   </div> 
+                   <div class="content-card-product">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h3>Puerto Escondido</h3>
+                    <span class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </span>
+                    <p class="price">$960 <span>$1200</span></p>
+                   </div>
+                </div>
+                <!-- Producto2 -->
+                <div class="card-product">
+                    <div class="container-img">
+                     <img src="img/cabo.png" alt="Cabo Verde">
+                     <span class="discount">-15%</span>
+                    
+                    </div> 
+                    <div class="content-card-product">
+                     <div class="stars">
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-regular fa-star"></i>
+                         <i class="fa-regular fa-star"></i>
+                     </div>
+                     <h3>Cabo Verde</h3>
+                     <span class="add-cart">
+                         <i class="fas fa-shopping-cart"></i>
+                     </span>
+                     <p class="price">$2975 <span>$3500</span></p>
+                    </div>
+                 </div>
+                 <!-- Producto 3 -->
+                 <div class="card-product">
+                    <div class="container-img">
+                     <img src="img/paris.png" alt="Paris">
+                     <span class="discount">-13%</span>
+                     
+                    </div> 
+                    <div class="content-card-product">
+                     <div class="stars">
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                     </div>
+                     <h3>Paris</h3>
+                     <span class="add-cart">
+                         <i class="fas fa-shopping-cart"></i>
+                     </span>
+                     <p class="price">$3915 <span>$4500</span></p>
+                    </div>
+                 </div>
+                 <!-- Producto 4 -->
+                 <div class="card-product">
+                    <div class="container-img">
+                     <img src="img/new york.png" alt="New York">
+                     <span class="discount">-22%</span>
+                     
+                    </div> 
+                    <div class="content-card-product">
+                     <div class="stars">
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-solid fa-star"></i>
+                         <i class="fa-regular fa-star"></i>
+                     </div>
+                     <h3>New York</h3>
+                     <span class="add-cart">
+                         <i class="fas fa-shopping-cart"></i>
+                     </span>
+                     <p class="price">$1716 <span>$2200</span></p>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <img src="img/gallery1.jpg" alt="Gallery img1" class="gallery-img-1">
+            <img src="img/gallery2.jpg" alt="Gallery img2" class="gallery-img-2">
+            <img src="img/gallery3.jpg" alt="Gallery img3" class="gallery-img-3">
+            <img src="img/gallery4.jpg" alt="Gallery img4" class="gallery-img-4">
+            <img src="img/gallery5.jpg" alt="Gallery img5" class="gallery-img-5">
+        </section>
+
+        <section class="container specials">
+            <h1 class="heading-1">Lugares espectaculares</h1>
+
+            <!-- Prodcuto 1 -->
+            <div class="container-products">
+                <div class="card-product">
+                        <div class="container-img">
+                         <img src="img/tailandia.png" alt="Tailandia">
+                         <span class="discount">-17%</span>
+                         
+                        </div> 
+                        <div class="content-card-product">
+                         <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                         </div>
+                         <h3>Tour por Tailandia</h3>
+                         <span class="add-cart">
+                             <i class="fas fa-shopping-cart"></i>
+                         </span>
+                         <p class="price">$62997 <span>$75900</span></p>
+                        </div>
+                     </div>
+                     <!-- Producto2 -->
+                     <div class="card-product">
+                        <div class="container-img">
+                         <img src="img/machu.png" alt="Piramides Machu Pichu">
+                         <span class="discount">-8%</span>
+                         
+                        </div> 
+                        <div class="content-card-product">
+                         <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                         </div>
+                         <h3>Machu Pichu</h3>
+                         <span class="add-cart">
+                             <i class="fas fa-shopping-cart"></i>
+                         </span>
+                         <p class="price">$41400 <span>$45000</span></p>
+                        </div>
+                     </div>
+                     <!-- Producto3 -->
+                     <div class="card-product">
+                        <div class="container-img">
+                         <img src="img/teotihuacan.png" alt="Teotihuacan">
+                         <span class="discount">-20%</span>
+                         
+                        </div> 
+                        <div class="content-card-product">
+                         <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                         </div>
+                         <h3>Teotihuacan</h3>
+                         <span class="add-cart">
+                             <i class="fas fa-shopping-cart"></i>
+                         </span>
+                         <p class="price">$12000 <span>$15000</span></p>
+                        </div>
+                     </div>
+                     <!-- Producto4 -->
+                     <div class="card-product">
+                        <div class="container-img">
+                         <img src="img/montañas.png" alt="Montañas Rocosas">
+                         <span class="discount">-35%</span>
+                         
+                        </div> 
+                        <div class="content-card-product">
+                         <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                             <i class="fa-regular fa-star"></i>
+                         </div>
+                         <h3>Montañas Rocosas</h3>
+                         <span class="add-cart">
+                             <i class="fas fa-shopping-cart"></i>
+                         </span>
+                         <p class="price">$36140 <span>$55600</span></p>
+                        </div>
+                     </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="container blogs">
+            <h1 class="heading-1">Últimas Experiencias</h1>
+
+            <div class="container-blogs">
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/Xcaret.png" alt="Xcaret">
+                        
+                    </div>
+                    <div class="content-blog">
+                        <h3>Xcaret</h3>
+                        <span>29 Noviembre 2022</span>
+                        <p>Las diversas playas en las que puedes viajar
+                            con tu familia para explorar y conocer más
+                            acerca de esta cultura.
+                        </p>
+                        <div class="btn-read-more">Leer más</div>
+                    </div>
+                </div>
+                <!-- blog2 -->
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/aurora.png" alt="Auroras boreales">
+                        
+                    </div>
+                    <div class="content-blog">
+                        <h3>Auroras boreales</h3>
+                        <span>31 Diciembre 2022</span>
+                        <p>Una experiencia unica e inolvidable que 
+                            puede suceder al ir a Finladia.
+                        </p>
+                        <div class="btn-read-more">Leer más</div>
+                    </div>
+                </div>
+                <!-- blog3 -->
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/muralla.png" alt="Muralla China">
+                        
+                    </div>
+                    <div class="content-blog">
+                        <h3>Muralla China</h3>
+                        <span>03 Febrero 2023</span>
+                        <p>El mejor tiempo para visitarla es en
+                            la primavera y el otoño, una gran 
+                            experiencia inolvidable.
+                        </p>
+                        <div class="btn-read-more">Leer más</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"> 
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Contactanos</p>
+                    <ul>
+                        <li>AG Happy World</li>
+                        <li>AG_HappW</li>
+                        <li>5611522365</li>
+                        <li>2569875</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook"><a href="https://www.facebook.com/profile.php?id=61554120020983"><i class="fa-brands fa-facebook-f"></i></a></span>
+                        <span class="instagram"><a href="https://instagram.com/viajes_hapwo?igshid=MzMyNGUyNmU2YQ=="><i class="fa-brands fa-instagram"></i></a></span>
+                        <span class="whatsapp"><a href="https://wa.me/qr/LLLE3NLWRAREB1"><i class="fa-brands fa-whatsapp"></i></a></span>
+                        
+                    </div>
+                </div>
+                <div class="information">
+                    <p class="title-footer">Servicio al cliente</p> 
+                     <ul>
+                        <li><a href="#">Ayuda</a></li>
+                        <li><a href="#">Consultar reservación</a></li>
+                        <li><a href="#">Modificar reservación</a></li>
+                        <li><a href="#">Cancelar reservación</a></li>
+                        <li><a href="#">Factruación electrónica</a></li>
+                     </ul>   
+                </div>
+                <div class="my-account">
+                    <p class="title-footer">Copyright</p>
+                    <ul>
+                        <li><a href="#">Moreno Martínez Alma Ruth</a></li>
+                        <li><a href="#">Nuci Vazquez Andrea</a></li>
+                        <li><a href="#">Otero Lopez Andrik Axel</a></li>
+                        <li><a href="#">Perez Rojas Luis Eduardo</a></li>
+                        <li><a href="#">Salazar Mendieta Jesús Ángel</a></li>
+                        <li><a href="#">Solís Morales Jorge Aaron</a></li>  
+                    </ul>
+                </div>
+                <div class="newsletter">
+                    <p class="title-footer">Confianza en tus compras</p>
+                    <ul>
+                        <li><a href="./perf/ter.html">Términos y condiciones</a></li>
+                        <li><a href="./perf/av.html">Aviso de privacidad</a></li> 
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="carrito.js"></script>
+    <script src="https://kit.fontawesome.com/7086fe76ac.js" crossorigin="anonymous"></script>
+    
+      
+    
+</body>
+</html>
