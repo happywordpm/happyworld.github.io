@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy World</title>
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+    <header>
+        <<div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+
+                    <div class="content-customer-support">
+                        
+                        <div class="content-customer-support">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="container-logo">
+                    <i class="fa-solid fa-plane-departure"></i>
+                    <h1 class="logo"><a href="/">Happy World</a></h1>
+                </div>
+
+                <!-- En esta parte esta la funcion del carrito de compras es despues del logo y el a href del happy world-->
+                <div class="container-user">
+                  
+                    <i class="fas fa-shopping-cart">
+                    </i>
+                    <div class="content-shopping-car">
+                        <span class="text">Carrito de compras</span>
+                        <span class="welcome-message">Bienvenid@ Usuario</span>
+                    </div> 
+                        <div class ="count-products">
+                            <span id="contador-productos">
+                            </span>
+                        </div>
+
+                        <div class="container-cart-products hidden-cart">
+                            <div class="row-product">
+                                <div class="cart-product">
+                                    <div class="info-cart-product">
+                                        <div class="span cantidad-producto-carrito">
+                                            <p class="titulo-producto--carrito"></p>
+                                        <span class="precio-producto-carrito"></span>
+                                        
+                                    </div>
+                                    </div>
+                                    
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 24 24" 
+                                    stroke-width="1.5" 
+                                    stroke="currentColor" 
+                                    class="close">
+                                    <path 
+                                    stroke-linecap="round" 
+                                    stroke-linejoin="round" 
+                                    d="M6 18L18 6M6 6l12 12" 
+                                    />
+                                      </svg>
+                                      </div>
+                            </div>
+                                  
+                                  <div class="cart-total">
+                                    <h3>Total:</h3>
+                                    <span class="total-pagar">$</span>
+                                  </div>
+                            </div>
+                        </div>       
+                        <!--Aqui acaba el codigo para el carrito acaba antes de llegar al carrito de compras -->  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars"></i>   
+                <ul class="menu">
+                    <li><a href="../perf.html">Inicio</a></li>
+                    <li><a href="no.html">Nosotros</a></li>
+                    <li><a href="of.html">Ofertas</a></li>
+                    <li><a href="pro.html">Promociones</a></li>
+                    <li><a href="de.html">Destinos</a></li>
+                    <li><a href="#">Tipo de Cambio</a></li>
+                </ul>
+
+                <form class="search-form">
+                    <input type="search" name="buscar" placeholder="Buscar..." />
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+                <a href="../index.html" class="logout-link">Cerrar sesión</a>
+            </nav>
+        </div>v
+    </header>
+
+    <section class="container top-products">
+        <br>
+        <h1 class="heading-1">Ofertas especiales para ti</h1>
+
+        
+        
+        <div class="container-products">
+            <!-- producto1 -->
+            <div class="card-product">
+               <div class="container-img">
+                <img src="../img/Riviera.jpg" alt="Riviera Maya">
+                <span class="discount">-20%</span>
+                <div class="button-group">
+                    <span><i class="fa-regular fa-eye"></i></span>
+                    <span><i class="fa-regular fa-heart"></i></span>
+                    <span><i class="fa-solid fa-code-compare"></i></span>
+                </div>
+               </div> 
+               <div class="content-card-product">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Riviera Maya</h3>
+                <span class="add-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                </span>
+                <p class="price">$4,799 <span>$5,999</span></p>
+               </div>
+            </div>
+            <!-- Producto2 -->
+            <div class="card-product">
+                <div class="container-img">
+                 <img src="../img/veracruz.jpg" alt="Veracruz">
+                 <span class="discount">-15%</span>
+                 <div class="button-group">
+                     <span><i class="fa-regular fa-eye"></i></span>
+                     <span><i class="fa-regular fa-heart"></i></span>
+                     <span><i class="fa-solid fa-code-compare"></i></span>
+                 </div>
+                </div> 
+                <div class="content-card-product">
+                 <div class="stars">
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                 </div>
+                 <h3>Veracruz</h3>
+                 <span class="add-cart">
+                     <i class="fas fa-shopping-cart"></i>
+                 </span>
+                 <p class="price">$1,275 <span>$1,500</span></p>
+                </div>
+             </div>
+             <!-- Producto 3 -->
+             <div class="card-product">
+                <div class="container-img">
+                 <img src="../img/VeneciaItalia.jpg" alt="Venecia">
+                 <span class="discount">-13%</span>
+                 <div class="button-group">
+                     <span><i class="fa-regular fa-eye"></i></span>
+                     <span><i class="fa-regular fa-heart"></i></span>
+                     <span><i class="fa-solid fa-code-compare"></i></span>
+                 </div>
+                </div> 
+                <div class="content-card-product">
+                 <div class="stars">
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                 </div>
+                 <h3>Venecia</h3>
+                 <span class="add-cart">
+                     <i class="fas fa-shopping-cart"></i>
+                 </span>
+                 <p class="price">$17,835 <span>$20,500</span></p>
+                </div>
+             </div>
+             <!-- Producto 4 -->
+             <div class="card-product">
+                <div class="container-img">
+                 <img src="../img/Shibuyajapon.jpg" alt="Shibuya">
+                 <span class="discount">-25%</span>
+                 <div class="button-group">
+                     <span><i class="fa-regular fa-eye"></i></span>
+                     <span><i class="fa-regular fa-heart"></i></span>
+                     <span><i class="fa-solid fa-code-compare"></i></span>
+                 </div>
+                </div> 
+                <div class="content-card-product">
+                 <div class="stars">
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                 </div>
+                 <h3>Shibuya</h3>
+                 <span class="add-cart">
+                     <i class="fas fa-shopping-cart"></i>
+                 </span>
+                 <p class="price">$26,250 <span>$35,000</span></p>
+                </div>
+             </div>
+            
+             <!-- Producto5 -->
+            <div class="card-product">
+                <div class="container-img">
+                 <img src="../img/RioBrasil.jpg" alt="Brasil">
+                 <span class="discount">-8%</span>
+                 <div class="button-group">
+                     <span><i class="fa-regular fa-eye"></i></span>
+                     <span><i class="fa-regular fa-heart"></i></span>
+                     <span><i class="fa-solid fa-code-compare"></i></span>
+                 </div>
+                </div> 
+                <div class="content-card-product">
+                 <div class="stars">
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                 </div>
+                 <h3>Brasil</h3>
+                 <span class="add-cart">
+                     <i class="fas fa-shopping-cart"></i>
+                 </span>
+                 <p class="price">$12,696 <span>$13,800</span></p>
+                </div>
+             </div>
+             <!-- Producto6 -->
+            <div class="card-product">
+                <div class="container-img">
+                 <img src="../img/BuenosairesArgentina.jpg" alt="Buenos Aires">
+                 <span class="discount">-18%</span>
+                 <div class="button-group">
+                     <span><i class="fa-regular fa-eye"></i></span>
+                     <span><i class="fa-regular fa-heart"></i></span>
+                     <span><i class="fa-solid fa-code-compare"></i></span>
+                 </div>
+                </div> 
+                <div class="content-card-product">
+                 <div class="stars">
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                 </div>
+                 <h3>Buenos Aires</h3>
+                 <span class="add-cart">
+                     <i class="fas fa-shopping-cart"></i>
+                 </span>
+                 <p class="price">$18,122 <span>$22,100</span></p>
+                </div>
+             </div>
+             <!-- Producto7 -->
+            <div class="card-product">
+                <div class="container-img">
+                 <img src="../img/Palenque, México_Original.jpg" alt="Palenque">
+                 <span class="discount">-5%</span>
+                 <div class="button-group">
+                     <span><i class="fa-regular fa-eye"></i></span>
+                     <span><i class="fa-regular fa-heart"></i></span>
+                     <span><i class="fa-solid fa-code-compare"></i></span>
+                 </div>
+                </div> 
+                <div class="content-card-product">
+                 <div class="stars">
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                 </div>
+                 <h3>Palenque</h3>
+                 <span class="add-cart">
+                     <i class="fas fa-shopping-cart"></i>
+                 </span>
+                 <p class="price">$10,165 <span>$10,700</span></p>
+                </div>
+             </div>
+             <!-- Producto8 -->
+            <div class="card-product">
+                <div class="container-img">
+                 <img src="../img/Maldivas.jpg" alt="Maldivas">
+                 <span class="discount">-10%</span>
+                 <div class="button-group">
+                     <span><i class="fa-regular fa-eye"></i></span>
+                     <span><i class="fa-regular fa-heart"></i></span>
+                     <span><i class="fa-solid fa-code-compare"></i></span>
+                 </div>
+                </div> 
+                <div class="content-card-product">
+                 <div class="stars">
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                 </div>
+                 <h3>Maldivas</h3>
+                 <span class="add-cart">
+                     <i class="fas fa-shopping-cart"></i>
+                 </span>
+                 <p class="price">$21,330 <span>$23,700</span></p>
+                </div>
+             </div>
+        </div>
+    </section>
+
+
+
+
+
+    
+    <footer class="footer"> 
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Contactanos</p>
+                    <ul>
+                        <li>AG Happy World</li>
+                        <li>AG_HappW</li>
+                        <li>5611522365</li>
+                        <li>2569875</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook"><a href="https://www.facebook.com/profile.php?id=61554120020983"><i class="fa-brands fa-facebook-f"></i></a></span>
+                        <span class="instagram"><a href="https://instagram.com/viajes_hapwo?igshid=MzMyNGUyNmU2YQ=="><i class="fa-brands fa-instagram"></i></a></span>
+                        <span class="whatsapp"><a href="https://wa.me/qr/LLLE3NLWRAREB1"><i class="fa-brands fa-whatsapp"></i></a></span>
+                        
+                    </div>
+                </div>
+                <div class="information">
+                    <p class="title-footer">Servicio al cliente</p> 
+                     <ul>
+                        <li><a href="#">Ayuda</a></li>
+                        <li><a href="#">Consultar reservación</a></li>
+                        <li><a href="#">Modificar reservación</a></li>
+                        <li><a href="#">Cancelar reservación</a></li>
+                        <li><a href="#">Factruación electrónica</a></li>
+                     </ul>   
+                </div>
+                <div class="my-account">
+                    <p class="title-footer">Copyright</p>
+                    <ul>
+                        <li><a href="#">Moreno Martínez Alma Ruth</a></li>
+                        <li><a href="#">Nuci Vazquez Andrea</a></li>
+                        <li><a href="#">Otero Lopez Andrik Axel</a></li>
+                        <li><a href="#">Perez Rojas Luis Eduardo</a></li>
+                        <li><a href="#">Salazar Mendieta Jesús Ángel</a></li>
+                        <li><a href="#">Solís Morales Jorge Aaron</a></li>  
+                    </ul>
+                </div>
+                <div class="newsletter">
+                    <p class="title-footer">Confianza en tus compras</p>
+                    <ul>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Aviso de privacidad</a></li> 
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="../carrito.js"></script>
+    <script src="https://kit.fontawesome.com/7086fe76ac.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
